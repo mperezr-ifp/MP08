@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Blacksword';
+    src: url('Blacksword.eot');
+    src: url('Blacksword.eot?#iefix') format('embedded-opentype'),
+        url('Blacksword.woff2') format('woff2'),
+        url('Blacksword.woff') format('woff'),
+        url('Blacksword.ttf') format('truetype'),
+        url('Blacksword.svg#Blacksword') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
