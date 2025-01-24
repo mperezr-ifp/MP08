@@ -9,6 +9,7 @@ html, body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow: hidden;
 }
 
 nav {
@@ -35,6 +36,7 @@ h2 {
 
 body {
   background: rgb(94,86,228);
+  overflow: hidden;
 }
 
 .pagina {
@@ -123,10 +125,11 @@ h2 {
 
 @media screen and (max-width: 480px)
 {
+  
   .nav {
     height:;
   }
-
+  
   nav li {
     font-size: small;
     margin: 0px 20px;
@@ -136,13 +139,15 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 10%;
-    float: left;
     background: rgb(113, 113, 240);
     color: white;
-    line-height: 200px;
+    line-height: 100px;
     text-align: center;
-    margin: 20px;
-    font-size: small;
+    display: block;
+    margin: 15px;
+    left: 5px;
+    top: 15px;
+    float: left;
   }
   
   .p2 ul {
@@ -159,6 +164,13 @@ h2 {
     left: 20px;
     right: 0;
   }
+
+  #contact h3 {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
 
 
 }
