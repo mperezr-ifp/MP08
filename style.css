@@ -9,6 +9,7 @@ html, body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 nav {
@@ -147,6 +148,13 @@ h2 {
     top: 15px;
     float: left;
   }
+
+  .p2 li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+  
+  }
   
   .p2 ul {
     width: 500px;
@@ -158,8 +166,8 @@ h2 {
     height: 30px; 
     width: auto; 
     position: relative;
-    top: 5px;
-    left: 20px;
+    top: 9px;
+    left: 15px;
     right: 0;
   }
 
