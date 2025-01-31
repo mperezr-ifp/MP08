@@ -330,12 +330,14 @@ a:visited {
     text-align: center;
     display: inline-block;
     margin: 15px;
+    top: 10px;
   }
 
   .p2 li img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 10%;
+    top: 10px;
   
   }
   
